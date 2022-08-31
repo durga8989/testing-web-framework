@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+<listeners>
+		<listener class-name="framework.AllProject.Custom_Listeners"></listener>
+	</listeners>
+	<!-- <test name="HomescreenTest">
+		<classes>
+			<class name="framework.AllProject.AppTest"/>
+
+			<class name="framework.AllProject.HomeScreen" />
+		</classes>
+	</test> -->
+
+	<test name="ProjectInputTest">
+		<classes>
+			<class name="framework.AllProject.ProjectinputTest" />
+		</classes>
+	</test>
+
+	<!-- <test name="TimesheetTest">
+		<classes>
+			<class name="framework.AllProject.TimesheetTest" />
+		</classes>
+	</test> --> <!-- Test -->
+
+
+</suite> <!-- Suite -->

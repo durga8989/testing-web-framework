@@ -1,0 +1,6 @@
+01:13:43.527 [TestNG-tests-2] INFO  framework.AllProject.ProjectinputTest - username enterred
+20:18:45.088 [TestNG-tests-1] INFO  framework.AllProject.HomeScreen - Driver is initialized
+20:18:49.433 [TestNG-tests-2] INFO  framework.AllProject.ProjectinputTest - app launched
+20:18:56.559 [TestNG-tests-2] INFO  framework.AllProject.ProjectinputTest - username enterred
+20:33:09.032 [main] INFO  framework.AllProject.HomeScreen - Driver is initialized
+20:35:07.360 [main] INFO  framework.AllProject.HomeScreen - Driver is initialized

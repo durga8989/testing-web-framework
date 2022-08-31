@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="framework.AllProject.Custom_Listeners"/>
+  </listeners>
+  <test thread-count="5" name="ProjectInputTest(failed)">
+    <classes>
+      <class name="framework.AllProject.ProjectinputTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="start"/>
+          <include name="TimesheetData"/>
+        </methods>
+      </class> <!-- framework.AllProject.ProjectinputTest -->
+    </classes>
+  </test> <!-- ProjectInputTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
